@@ -1,0 +1,14 @@
+[workspace]
+authors = ["Keeney <nkeeney@oceanics.io>"]
+channels = ["conda-forge"]
+name = "a-trilli"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+numpy = ">=2.3.1,<3"
+pillow = ">=11.3.0,<12"
+opencv = ">=4.12.0,<5"
